@@ -4,7 +4,6 @@ print("Welcome to the Movie Ticket Booking System!")
 print("Select a movie:")
 for key, value in movies.items():
     print(f"{key}: {value}")
-
 movie_choice = input("Enter the movie number: ")
 if movie_choice in movies:
     num_tickets = int(input("Enter the number of tickets: "))
